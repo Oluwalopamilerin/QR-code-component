@@ -1,0 +1,62 @@
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .background{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+
+    .container{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      width: 180px;
+      height: 280px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      margin-bottom: 50px;
+    }
+
+    .qr-image{
+      width: 160px;
+      border-radius: 5px; 
+      margin-top: 5px;
+    }
+
+    .text-container{
+      width: 160px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    p{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .first-text{
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .second-text{
+      font-size: 10px;
+      margin-top: 12px;
+      color: rgb(152, 152, 152);
+    }
+
+  
